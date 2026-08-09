@@ -1,93 +1,114 @@
 import { Link, useNavigate } from "react-router-dom";
-import { Activity, ShieldCheck, Lock, ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
+import { Activity, ArrowLeft, ArrowRight, Lock, ShieldCheck } from "lucide-react";
+import { BrandMark } from "@/components/visual/BrandMark";
+import { HolographicCourt } from "@/components/visual/HolographicCourt";
 
 export function Login() {
   const navigate = useNavigate();
 
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleLogin = (event: React.FormEvent) => {
+    event.preventDefault();
     navigate("/dashboard");
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0b] flex relative">
-      {/* Top Navigation Back Button for mobile / desktop */}
-      <div className="absolute top-6 left-6 z-30">
-        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-white transition-colors bg-white/5 border border-white/10 px-4 py-2 rounded-lg backdrop-blur-md">
-          <ArrowLeft className="w-4 h-4" /> Back to Home
-        </Link>
-      </div>
+    <div className="login-experience">
+      <section className="login-panel">
+        <div>
+          <Link to="/" className="login-back">
+            <ArrowLeft /> Return to public view
+          </Link>
 
-      {/* Left side: Branding & Visuals */}
-      <div className="hidden lg:flex flex-1 relative flex-col justify-between p-12 pt-20 border-r border-white/5 bg-black/40 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay pointer-events-none" />
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-accent/10 blur-[100px] rounded-full pointer-events-none" />
-        
-        <Link to="/" className="relative z-10 flex items-center gap-3 hover:opacity-80 transition-opacity w-fit cursor-pointer">
-          <Activity className="w-6 h-6 text-accent" />
-          <span className="font-bold text-2xl tracking-tight text-white uppercase">Nyaya Mitra</span>
-        </Link>
-
-        <div className="relative z-10 max-w-md">
-          <h2 className="text-3xl font-light text-white mb-4">AI that finds the cases the system forgot.</h2>
-          <p className="text-muted-foreground leading-relaxed">
-            An intelligent legal operations layer for undertrial case workflows.
-          </p>
+          <Link to="/" className="public-brand login-brand">
+            <BrandMark />
+            <span className="public-brand__copy">
+              <span className="public-brand__name">NYAYA MITRA</span>
+              <span className="public-brand__tag">OFFICER ACCESS GATEWAY</span>
+            </span>
+          </Link>
         </div>
 
-        <div className="relative z-10 text-xs font-mono text-white/30 uppercase tracking-widest">
-          SYS_STATE: ONLINE // ENV: PROD
-        </div>
-      </div>
-
-      {/* Right side: Login Form */}
-      <div className="flex-1 flex items-center justify-center p-8 relative">
-        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] mix-blend-overlay pointer-events-none" />
-        
-        <motion.div 
-          initial={{ opacity: 0, y: 10 }}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="w-full max-w-md space-y-8 relative z-10"
+          transition={{ duration: 0.65, delay: 0.08 }}
+          className="mx-auto w-full max-w-[34rem]"
         >
-          <div className="text-center space-y-2">
-            <h1 className="text-2xl font-semibold tracking-tight text-white">Authorized personnel only</h1>
-            <p className="text-sm text-muted-foreground">Sign in with your Officer ID to access the Command Center.</p>
+          <p className="font-mono text-[10px] font-medium tracking-[0.14em] text-accent">LIVE LEGAL OPERATIONS</p>
+          <h2 className="mt-3 max-w-md font-display text-4xl leading-[1.04] tracking-[-0.045em] text-white">
+            Clearer legal signals. More time for judgment.
+          </h2>
+          <p className="mt-4 max-w-md text-sm leading-7 text-white/55">
+            An intelligence layer for the legal work behind timely undertrial relief—designed to support officers, never replace them.
+          </p>
+          <HolographicCourt compact />
+        </motion.div>
+
+        <div className="login-trust">
+          <span><i /> SECURE OFFICER SESSION</span>
+          <span><ShieldCheck className="h-3 w-3 text-accent" /> EVIDENCE TRACEABILITY ACTIVE</span>
+        </div>
+      </section>
+
+      <section className="login-form-panel">
+        <motion.div
+          className="login-form-wrap"
+          initial={{ opacity: 0, y: 24, scale: 0.98 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.62, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <div className="mb-8 flex items-center gap-3 md:hidden">
+            <Link to="/" className="public-brand">
+              <BrandMark size="sm" />
+              <span className="public-brand__name">NYAYA MITRA</span>
+            </Link>
           </div>
 
-          <form onSubmit={handleLogin} className="space-y-4 bg-white/[0.02] border border-white/5 p-8 rounded-xl backdrop-blur-sm">
-            <div className="space-y-2">
-              <label className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Officer ID / Email</label>
-              <input 
-                type="text" 
+          <div className="login-form-heading">
+            <p className="font-mono text-[10px] font-medium tracking-[0.14em] text-accent">VERIFIED WORKSPACE</p>
+            <h1>Enter your legal command center.</h1>
+            <p>Use your Officer ID to access the live case intelligence environment.</p>
+          </div>
+
+          <form onSubmit={handleLogin} className="login-card">
+            <div className="login-field">
+              <label htmlFor="officer-id">OFFICER ID / EMAIL</label>
+              <input
+                id="officer-id"
+                type="text"
                 defaultValue="officer_104@nyayamitra.gov.in"
-                className="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent transition-colors"
-              />
-            </div>
-            
-            <div className="space-y-2">
-              <div className="flex justify-between items-center">
-                <label className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Password</label>
-              </div>
-              <input 
-                type="password" 
-                defaultValue="••••••••••••"
-                className="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-accent transition-colors"
+                className="login-field__input"
+                autoComplete="username"
               />
             </div>
 
-            <button type="submit" className="w-full bg-white text-black font-semibold rounded-lg py-3 mt-4 hover:bg-white/90 transition-colors flex items-center justify-center gap-2">
-              <Lock className="w-4 h-4" /> Sign In securely
+            <div className="login-field">
+              <label htmlFor="officer-password">ACCESS KEY</label>
+              <input
+                id="officer-password"
+                type="password"
+                defaultValue="••••••••••••"
+                className="login-field__input"
+                autoComplete="current-password"
+              />
+            </div>
+
+            <button type="submit" className="login-submit">
+              <Lock /> Authorize secure session <ArrowRight className="h-4 w-4" />
             </button>
+
+            <div className="login-security">
+              <span><Activity /> SYSTEM STATUS: ONLINE</span>
+              <span><ShieldCheck /> HUMAN REVIEW REQUIRED FOR EVERY ACTION</span>
+            </div>
           </form>
 
-          <div className="flex flex-col items-center gap-3 text-xs text-muted-foreground font-medium uppercase tracking-widest pt-8">
-            <div className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> SYSTEM ONLINE</div>
-            <div className="flex items-center gap-2"><ShieldCheck className="w-3 h-3 text-accent" /> EVIDENCE TRACEABILITY ENABLED</div>
-            <div className="flex items-center gap-2"><Lock className="w-3 h-3 text-amber-500" /> HUMAN REVIEW REQUIRED</div>
-          </div>
+          <Link to="/" className="login-back mt-6 md:hidden">
+            <ArrowLeft /> Back to home
+          </Link>
         </motion.div>
-      </div>
+      </section>
     </div>
   );
 }

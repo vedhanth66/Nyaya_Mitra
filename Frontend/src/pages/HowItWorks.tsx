@@ -1,151 +1,171 @@
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowLeft, FileCheck, Eye, Scale, Shield, Activity, Users, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
+import {
+  Activity,
+  ArrowRight,
+  Eye,
+  FileCheck,
+  Scale,
+  Shield,
+  Users,
+} from "lucide-react";
+import { BrandMark } from "@/components/visual/BrandMark";
+import { HolographicCourt } from "@/components/visual/HolographicCourt";
 
 const pipelineSteps = [
   {
     step: "01",
-    label: "CASE RECORDS INTAKE",
+    tag: "INPUT LAYER",
+    title: "Build a reliable record",
+    description: "Scanned prison registers, FIR copies, remand notes, and custody logs are normalized into a structured, reviewable case record.",
     icon: FileCheck,
-    title: "Digitization & Ingestion",
-    desc: "Ingests scanned prison registers, FIR copies, remand notes, and custody logs. Normalizes raw unstructured data into machine-readable JSON schemas.",
-    badge: "Input Layer"
   },
   {
     step: "02",
-    label: "DOC INTELLIGENCE",
+    tag: "DOCUMENT VISION",
+    title: "Find critical facts",
+    description: "The document intelligence layer extracts arrest dates, charged sections, sentence lengths, and prior bail information from legal records.",
     icon: Eye,
-    title: "OCR & Key Fact Extraction",
-    desc: "Extracts critical judicial metadata: arrest dates, sections charged, sentence lengths, and prior bail orders using domain-specific vision-language models.",
-    badge: "Extraction Engine"
   },
   {
     step: "03",
-    label: "ELIGIBILITY RADAR",
+    tag: "RULE ENGINE",
+    title: "Apply the statute exactly",
+    description: "Deterministic legal threshold calculations turn the relevant facts into an auditable custody eligibility signal.",
     icon: Scale,
-    title: "Statutory Threshold Math",
-    desc: "Applies deterministic, zero-hallucination legal rules (e.g. BNSS Section 479 / IPC half-sentence custody thresholds) to compute exact days overdue.",
-    badge: "Deterministic Math"
   },
   {
     step: "04",
-    label: "EVIDENCE CHAIN",
+    tag: "EVIDENCE LAYER",
+    title: "Ground every conclusion",
+    description: "Relevant statutory sources and case facts stay connected, so the officer can inspect why the system reached each finding.",
     icon: Shield,
-    title: "Statute RAG & Grounding",
-    desc: "Queries ChromaDB vector stores for relevant Indian Penal Code provisions and judicial precedents, attaching strict citations to every claim.",
-    badge: "Vector Retrieval"
   },
   {
     step: "05",
-    label: "AUTOMATED DRAFTING",
+    tag: "ACTION STUDIO",
+    title: "Prepare the next move",
+    description: "The workspace prepares a structured draft and highlights record gaps, giving legal staff a strong starting point for action.",
     icon: Activity,
-    title: "Bail Petition Generation",
-    desc: "Drafts formal bail applications formatted to Indian court standards, highlighting missing records and exact legal justification.",
-    badge: "LLM Agent"
   },
   {
     step: "06",
-    label: "HUMAN REVIEW GATE",
+    tag: "HUMAN GATE",
+    title: "Keep judgment human",
+    description: "A legal officer reviews, edits, and approves every consequential action. The system supports the decision; it does not make it.",
     icon: Users,
-    title: "Legal Officer Approval",
-    desc: "Every AI output requires explicit human review and e-signature before filing. The system never submits applications autonomously.",
-    badge: "Human-in-the-Loop"
-  }
+  },
 ];
 
 export function HowItWorks() {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] text-foreground font-sans relative overflow-hidden p-6 md:p-12">
-      {/* Background Glows */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-accent/10 blur-[150px] rounded-full pointer-events-none" />
+    <div className="public-experience">
+      <header className="public-nav">
+        <Link to="/" className="public-brand">
+          <BrandMark size="sm" />
+          <span className="public-brand__copy">
+            <span className="public-brand__name">NYAYA MITRA</span>
+            <span className="public-brand__tag">METHOD / INTELLIGENCE FLOW</span>
+          </span>
+        </Link>
+        <nav className="public-nav__links" aria-label="Main navigation">
+          <Link to="/">Overview</Link>
+          <Link to="/features">Capabilities</Link>
+          <Link to="/dashboard">Command Center</Link>
+        </nav>
+        <Link to="/login" className="public-cta">Officer access <ArrowRight className="h-3.5 w-3.5" /></Link>
+      </header>
 
-      <div className="w-full space-y-12 relative z-10">
-        
-        {/* Navigation Bar */}
-        <div className="flex items-center justify-between border-b border-white/10 pb-6">
-          <div className="flex items-center gap-4">
-            <Link
-              to="/"
-              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-white transition-colors bg-white/5 border border-white/10 px-4 py-2 rounded-lg"
-            >
-              <ArrowLeft className="w-4 h-4" /> Back to Home
-            </Link>
-            <Link
-              to="/dashboard"
-              className="inline-flex items-center gap-2 text-sm text-accent hover:text-accent/80 transition-colors bg-accent/10 border border-accent/20 px-4 py-2 rounded-lg font-medium"
-            >
-              Command Center
-            </Link>
-          </div>
-          <div className="text-xs text-muted-foreground font-mono uppercase tracking-widest hidden sm:block">
-            NYAYA MITRA // PIPELINE ARCHITECTURE
-          </div>
-        </div>
+      <main>
+        <section className="public-container public-page-hero">
+          <motion.div
+            initial={{ opacity: 0, y: 25 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.68, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <span className="public-eyebrow"><i /> TRANSPARENT BY DESIGN</span>
+            <h1 className="public-page-hero__title">A visible path from paper to progress.</h1>
+            <p className="public-page-hero__copy">
+              Nyaya Mitra organizes the work that sits between a raw record and a review-ready legal action. Every stage has a purpose, an evidence trail, and a human owner.
+            </p>
+            <div className="public-page-hero__actions">
+              <Link to="/dashboard" className="public-cta">Explore the workspace <ArrowRight className="h-4 w-4" /></Link>
+              <Link to="/features" className="public-cta public-cta--ghost">See capabilities</Link>
+            </div>
+          </motion.div>
 
-        {/* Hero Banner */}
-        <div className="text-center space-y-4 max-w-3xl mx-auto pt-6">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-accent/20 bg-accent/10 text-accent text-xs font-semibold tracking-widest uppercase">
-            <Activity className="w-4 h-4 animate-pulse" /> End-to-End Operational Pipeline
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
-            How Nyaya Mitra Works
-          </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            A transparent, multi-agent AI pipeline designed to ensure no undertrial prisoner is forgotten behind paperwork.
-          </p>
-        </div>
+          <motion.div
+            className="public-page-hero__visual"
+            initial={{ opacity: 0, scale: 0.9, x: 26 }}
+            animate={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 0.88, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <HolographicCourt compact />
+          </motion.div>
+        </section>
 
-        {/* Grid of Steps */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6">
-          {pipelineSteps.map((step, i) => (
-            <motion.div
-              key={step.step}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:bg-white/[0.04] hover:border-accent/40 transition-all group relative flex flex-col justify-between"
-            >
-              <div className="space-y-4">
-                <div className="flex justify-between items-start">
-                  <div className="w-12 h-12 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent group-hover:bg-accent/20 transition-colors">
-                    <step.icon className="w-6 h-6" />
+        <section className="public-container public-section">
+          <motion.div
+            initial={{ opacity: 0, y: 22 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.55 }}
+          >
+            <p className="section-kicker">THE SIX-STAGE FLOW</p>
+            <h2 className="section-heading">Designed for legibility at every handoff.</h2>
+            <p className="section-copy">The value is not only in what the system finds, but in how clearly it reveals the work needed to move a case forward.</p>
+          </motion.div>
+
+          <div className="journey-grid mt-12">
+            {pipelineSteps.map((step, index) => {
+              const Icon = step.icon;
+              return (
+                <motion.article
+                  key={step.step}
+                  className="journey-card"
+                  initial={{ opacity: 0, y: 26 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  transition={{ duration: 0.5, delay: index * 0.07 }}
+                >
+                  <div className="journey-card__head">
+                    <span className="journey-card__step">STAGE {step.step}</span>
+                    <span className="journey-card__icon"><Icon /></span>
                   </div>
-                  <span className="text-2xl font-mono font-bold text-white/20 group-hover:text-accent transition-colors">
-                    {step.step}
-                  </span>
-                </div>
-                <div>
-                  <span className="text-[10px] font-bold text-accent uppercase tracking-widest bg-accent/10 border border-accent/20 px-2 py-0.5 rounded">
-                    {step.badge}
-                  </span>
-                  <h3 className="text-xl font-bold text-white mt-3 mb-2">{step.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{step.desc}</p>
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* Bottom Call to Action */}
-        <div className="p-8 rounded-2xl border border-white/10 bg-gradient-to-r from-accent/10 via-white/[0.02] to-transparent text-center space-y-6">
-          <h2 className="text-2xl font-bold text-white">Ready to explore the live dashboard?</h2>
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link
-              to="/dashboard"
-              className="px-8 py-3.5 bg-white text-black font-semibold rounded-xl hover:bg-white/90 transition-all inline-flex items-center gap-2 text-sm shadow-lg shadow-white/5"
-            >
-              Open Command Center <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
-              to="/"
-              className="px-8 py-3.5 bg-white/5 border border-white/10 text-white font-medium rounded-xl hover:bg-white/10 transition-all text-sm"
-            >
-              Return to Landing Page
-            </Link>
+                  <span className="journey-card__tag">{step.tag}</span>
+                  <h3>{step.title}</h3>
+                  <p>{step.description}</p>
+                  <span className="journey-card__wire" />
+                </motion.article>
+              );
+            })}
           </div>
-        </div>
+        </section>
 
-      </div>
+        <section className="public-container">
+          <motion.div
+            className="public-banner"
+            initial={{ opacity: 0, scale: 0.97 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.6 }}
+          >
+            <p className="section-kicker">A HUMAN-GOVERNED SYSTEM</p>
+            <h2>AI clears the operational fog. Legal officers keep the authority.</h2>
+            <p>Explore the live command center to see how the workflow feels when every signal is accompanied by its proof.</p>
+            <Link to="/dashboard" className="public-cta">Open Command Center <ArrowRight className="h-4 w-4" /></Link>
+          </motion.div>
+        </section>
+      </main>
+
+      <footer className="public-container public-footer">
+        <span>NYAYA MITRA · TRACEABLE INTELLIGENCE FOR LEGAL AID</span>
+        <span className="public-footer__links">
+          <Link to="/">Overview</Link>
+          <Link to="/features">Capabilities</Link>
+          <Link to="/login">Officer access</Link>
+        </span>
+      </footer>
     </div>
   );
 }

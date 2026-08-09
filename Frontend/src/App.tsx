@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AppLayout } from "./layout/AppLayout";
+import { PublicLayout } from "./layout/PublicLayout";
 import { Landing } from "./pages/Landing";
 import { Login } from "./pages/Login";
 import { CommandCenter } from "./pages/CommandCenter";
@@ -19,10 +20,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="/features" element={<FeaturesPage />} />
+        <Route element={<PublicLayout />}>
+          <Route path="/" element={<Landing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/features" element={<FeaturesPage />} />
+        </Route>
         <Route element={<AppLayout />}>
           <Route path="/dashboard" element={<CommandCenter />} />
           <Route path="/case/:id" element={<CaseIntelligence />} />

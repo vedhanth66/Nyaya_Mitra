@@ -1,3 +1,260 @@
 [33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
   - `__dirname` (vite.config.ts:10:25). Use `import.meta.dirname` instead
 Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+[2m9:35:57 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786247671721:55:22)
+[2m9:35:57 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786247671721:55:22)
+[2m9:50:01 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m9:50:01 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m9:50:18 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API lawyer profile fallback: Error: Failed to fetch lawyer profile
+    at fetchLawyerProfile (http://localhost:5173/src/lib/api.ts?t=1786247671710:49:22)
+[2m9:51:09 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API lawyer profile fallback: Error: Failed to fetch lawyer profile
+    at fetchLawyerProfile (http://localhost:5173/src/lib/api.ts?t=1786247671710:49:22)
+[2m9:52:24 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m9:52:24 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m9:52:27 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API lawyer profile fallback: Error: Failed to fetch lawyer profile
+    at fetchLawyerProfile (http://localhost:5173/src/lib/api.ts?t=1786247671710:49:22)
+[2m9:55:31 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API lawyer profile fallback: Error: Failed to fetch lawyer profile
+    at fetchLawyerProfile (http://localhost:5173/src/lib/api.ts?t=1786247671710:49:22)
+[2m9:56:02 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m9:56:02 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m9:56:02 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m9:56:02 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m9:56:02 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m9:56:02 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:12:21 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m10:12:21 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m10:12:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:22 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:12:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:22 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:12:42 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m10:12:42 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m10:12:42 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:42 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:42 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:42 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:12:42 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:12:42 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:13:29 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m10:13:29 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m10:13:36 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:13:36 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:13:36 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:13:36 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:13:36 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:13:36 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:30:36 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/DocumentAssessmentPage.tsx:294:13 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m294 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m`[0m[38;5;249m}[0m
+ [38;5;240m    │[0m             │ 
+ [38;5;240m    │[0m             ╰─ 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/src/pages/DocumentAssessmentPage.tsx[39m
+      at transformWithOxc (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:4097:19)
+      at TransformPluginContext.transform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:4168:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:30851:51)
+      at async loadAndTransform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:20619:26)
+      at async viteTransformMiddleware (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:25142:20)
+[2m10:30:37 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/DocumentAssessmentPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m10:30:37 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/DocumentAssessmentPage.tsx:294:13 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m294 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m`[0m[38;5;249m}[0m
+ [38;5;240m    │[0m             │ 
+ [38;5;240m    │[0m             ╰─ 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/src/pages/DocumentAssessmentPage.tsx[39m
+      at transformWithOxc (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:4097:19)
+      at TransformPluginContext.transform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:4168:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:30851:51)
+      at async loadAndTransform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:20619:26)
+      at async viteTransformMiddleware (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:25142:20)
+[2m10:30:37 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/pages/DocumentAssessmentPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m10:38:56 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/DocumentAssessmentPage.tsx:294:13 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m294 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m`[0m[38;5;249m}[0m
+ [38;5;240m    │[0m             │ 
+ [38;5;240m    │[0m             ╰─ 
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/src/pages/DocumentAssessmentPage.tsx[39m
+[2m10:38:56 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:38:56 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:38:56 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:38:56 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:40:16)
+[2m10:38:56 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:38:56 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786249089352:21:17)
+[2m10:39:10 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/DocumentAssessmentPage.tsx:294:13 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m294 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m`[0m[38;5;249m}[0m
+ [38;5;240m    │[0m             │ 
+ [38;5;240m    │[0m             ╰─ 
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/src/pages/DocumentAssessmentPage.tsx[39m
+      at transformWithOxc (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:4097:19)
+      at TransformPluginContext.transform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:4168:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:30851:51)
+      at async loadAndTransform (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:20619:26)
+      at async viteTransformMiddleware (file:///C:/Users/Tanisha/hackverse/Nyaya_Mitra/Nyaya_Mitra/Frontend/node_modules/vite/dist/node/chunks/node.js:25142:20)
+[2m11:12:03 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:22:17)
+[2m11:12:03 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:03 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:03 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:03 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:03 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:22:17)
+[2m11:12:07 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m11:12:07 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API available cases unavailable: Error: Failed to fetch available cases
+    at fetchAvailableCases (http://localhost:5173/src/lib/api.ts?t=1786247671710:19:22)
+    at async Promise.all (index 1)
+    at async loadData (http://localhost:5173/src/pages/CasesPage.tsx?t=1786249084003:55:22)
+[2m11:12:09 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:09 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:09 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mError in assessDocument: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:09 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mPipeline assessment failed: Error: Document assessment API error
+    at assessDocument (http://localhost:5173/src/lib/api.ts?t=1786247671710:193:22)
+    at async handleRunAssessment (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:41:16)
+[2m11:12:09 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:22:17)
+[2m11:12:09 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API sample-documents unavailable: Error: Failed to fetch sample documents
+    at fetchSampleDocuments (http://localhost:5173/src/lib/api.ts?t=1786247671710:176:22)
+    at async init (http://localhost:5173/src/pages/DocumentAssessmentPage.tsx?t=1786254104427:22:17)
+[2m11:12:18 am[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mBackend API lawyer profile fallback: Error: Failed to fetch lawyer profile
+    at fetchLawyerProfile (http://localhost:5173/src/lib/api.ts?t=1786247671710:49:22)

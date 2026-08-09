@@ -87,3 +87,326 @@ Switching to Tier 3 Deterministic Safety Fallback...
 INFO:     127.0.0.1:58735 - "GET /cases/UTP-0007 HTTP/1.1" 200 OK
 INFO:     127.0.0.1:61836 - "GET /cases HTTP/1.1" 200 OK
 INFO:     127.0.0.1:61836 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53244 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58629 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53244 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58629 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53244 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53325 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58629 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53244 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:53325 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:53244 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49271 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49271 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53059 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53059 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52487 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57621 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59899 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59899 - "GET /lawyer/profile HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56659 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56659 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60512 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60512 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57603 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57603 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54776 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62946 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54776 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62946 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57479 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57479 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59546 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53933 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64505 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52742 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55534 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55534 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53019 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53019 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56242 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54969 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54969 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56242 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50494 - "GET /lawyer/profile HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55466 - "GET /lawyer/profile HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65017 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61866 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53035 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65017 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53035 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61866 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61866 - "GET /lawyer/profile HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57390 - "GET /lawyer/profile HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62295 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62295 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62295 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62295 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:62295 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:62295 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50171 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50171 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56590 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56590 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56135 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56135 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60942 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60942 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60942 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52131 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60942 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52131 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56756 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56756 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63527 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57185 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63527 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57185 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63527 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63527 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63527 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63527 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63527 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59854 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:54407 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63527 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:64928 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64928 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /actions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /actions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /hearings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /hearings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /reports HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64928 - "GET /reports HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61685 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61685 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53660 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58088 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53660 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58088 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58088 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:59029 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:53660 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53660 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53660 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53660 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60915 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57945 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60915 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57945 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57141 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62127 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57141 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62127 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53817 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:53817 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53817 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:53817 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58898 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58898 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58898 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59948 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59948 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58898 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63029 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63029 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52414 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52414 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52414 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52414 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55522 - "GET /actions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55522 - "GET /actions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59841 - "GET /actions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52367 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56177 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59841 - "GET /actions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52367 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56177 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52367 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52367 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55386 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59821 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55386 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:59821 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:56192 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56192 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54106 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "OPTIONS /cases/assess-document HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64589 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54106 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:52953 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:64589 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64589 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57293 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64589 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64160 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64160 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64589 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:57293 - "POST /cases/assess-document HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:62931 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62931 - "GET /cases/sample-documents HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62931 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62931 - "GET /lawyer/profile HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51206 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51206 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64819 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64819 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64819 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64819 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51887 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52876 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52876 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61244 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53913 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53913 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61244 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50060 - "POST /cases/UTP-0007/take HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53956 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53956 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64783 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50220 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64783 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50220 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51528 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51528 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50220 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64783 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50220 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64783 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64783 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64783 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54018 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54018 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54018 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54018 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50336 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54536 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50336 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54536 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59651 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49335 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59651 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49335 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53423 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55504 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53423 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55504 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57677 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52189 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52189 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57677 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53920 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63621 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53920 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63621 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56318 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61203 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56318 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61203 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51093 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52791 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51093 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52791 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50854 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54212 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50854 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54212 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59259 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62285 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59259 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62285 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57746 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61904 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57746 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61904 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52966 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52966 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62626 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50953 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62626 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50953 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58936 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58936 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57757 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50640 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57757 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50640 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54939 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49712 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54939 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49712 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58726 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58726 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62213 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62213 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64523 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64523 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55725 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64523 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49917 - "GET /cases/available HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62610 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61820 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63810 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61820 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61820 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61820 - "GET /cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54436 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51369 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51369 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54436 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51836 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51836 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51836 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51836 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49161 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50163 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49161 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49161 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56556 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56556 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51536 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56556 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58748 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53632 - "GET /notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58748 - "GET /evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53632 - "GET /notifications HTTP/1.1" 200 OK
